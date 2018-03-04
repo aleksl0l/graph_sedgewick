@@ -1,0 +1,18 @@
+Graph G{
+graph [splines=true overlap=scale sep=3.5];
+node [shape=circle style=filled];
+0[fillcolor=blue];
+1[fillcolor=blue];
+2[fillcolor=blue];
+3[fillcolor=white];
+4[fillcolor=white];
+5[fillcolor=white];
+	0 -- 3;
+	0 -- 4;
+	0 -- 5;
+	1 -- 3;
+	1 -- 4;
+	1 -- 5;
+	2 -- 3;
+	2 -- 4;
+}
